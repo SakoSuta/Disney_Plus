@@ -1,139 +1,352 @@
-@media (max-width: 1024px) {
-  :root {
-    --white: #f9f9f9;
-    --primary-color: #0063e5;
-    --gris: #c0c0c0;
-  }
+@media (max-width: 770px) {
+    :root {
+      --white: #f9f9f9;
+      --primary-color: #0063e5;
+      --gris: #c0c0c0;
+    }
+  
+    body {
+      background-color: #040714;
+      color: var(--white);
+      font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+        Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    }
+  
+    
+  
+    /*--------------------Partie Nav--------------------*/
+  
+    nav 
+    {
+      display: flex;
+      align-items: center;
+      padding: 0px 36px;
+      height: 70px;
+    }
+  
+    .logo 
+    {
+      display: inline-block;
+      margin: 5px;
+      margin-right: auto;
+      padding: 0 14px;
+      width: 80px;
+      max-height: 70px;
+      height: auto;
+      box-sizing: content-box;
+    }
+  
+    .btn 
+    {
+      display: inline-block;
+      padding: 16.5px 24px;
+      height: 50px;
+      font-size: 18px;
+      color: var(--white);
+      border-radius: 4px;
+      text-decoration: none;
+      letter-spacing: 1px;
+      align-items: center;
+    }
+  
+    .ins 
+    {
+      background-color: var(--primary-color);
+      margin: 5px;
+    }
+  
+    .ide 
+    {
+      border: solid 0.8px;
+      border-color: var(--white);
+      margin: 5px;
+    }
+  
+    /*--------------------Première section--------------------*/
+  
+    .section1
+    {
+      display: flex;
+      padding: 40vw 5vw 20vw;
+      min-height: 100vh;
+      align-items: center;
+      min-height: 70vh;
+      justify-content: center;
+    }
+  
+    .fontsec1 
+    {
+      background-image: url(img/Fond_mobile.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      line-height: 26px;
+    }
+  
+    .first 
+    {
+      width: 100%;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+      max-width: 500px;
+    }
+  
+    .img1sec1 
+    {
+      display: block;
+      max-width: 130px;
+      max-height: 20%;
+      margin-bottom: 3vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .h1sec1 
+    {
+      margin-bottom: 4.2%;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      line-height: 1;
+    }
+  
+    .ulsec1 
+    {
+      margin: 0px auto;
+      max-width: 320px;
+    }
+  
+    .lisec1 
+    {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 12px;
+    }
+  
+    .h3sec1 
+    {
+      margin-bottom: 1.3%;
+      font-size: 22px;
+    }
+  
+    .h3spansec1 
+    {
+      font-size: 13px;
+      color: var(--gris);
+    }
+  
+    .lipsec1 
+    {
+      margin-bottom: 10px;
+      padding: 0px 10px;
+      font-size: 14px;
+      color: var(--gris);
+    }
+  
+    .dsec1 
+    {
+      margin: 0px;
+      padding: 12px 20px;
+      width: 100%;
+      max-width: 360px;
+    }
+  
+    .sectiondivaspansec1 
+    {
+      color: var(--white);
+      font-size: 15px;
+    }
 
-  body {
-    background-color: #040714;
-    color: var(--white);
-    font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
-      Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    .ligne
+    {
+        border-bottom: 2px solid;
+        border-color: #373943;
+        margin-bottom: 12px;
+    }
+  
+    .autre 
+    {
+      color: var(--gris);
+      font-size: 12px;
+    }
+  
+    /*--------------------Deuxième section--------------------*/
+  
+    .section2
+    {
+      flex-direction: column;
+      display: flex;
+      padding: 10vw 5vw;
+      min-height: 100vh;
+      align-items: center;
+    }
+  
+    .img1sec2 
+    {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+    .divsec2
+    {
+      padding: 0px 30px;
+    }
+  
+    .h2sec2
+    {
+      margin-bottom: 16px;
+      font-size: 26px;
+      line-height: 50px;
+      font-weight: bold;
+      text-align: center;
+    }
+  
+    .ulsec2
+    {
+      padding-left: 16px;
+      line-height: 26px;
+      text-align: left;
+    }
+  
+    .lisec2
+    {
+      margin-bottom: 20px;
+      list-style-type: disc;
+      font-size: 16px;
+      color: var(--gris);
+    }
+  
+    /*--------------------Troisième section--------------------*/
+  
+    .section3
+    {
+      display: block;
+      text-align: center;
+      padding: 10vw 5vw;
+    }
+  
+    .dsec3 {
+      margin-bottom: 16px;
+    }
+  
+    /*--------------------Quatrième section--------------------*/
+  
+    .section4
+    {
+      display: block;
+      padding: 10vw 5vw;
+    }
+  
+    .h2sec4
+    {
+      text-align: center;
+      font-size: 26px;
+      margin-bottom: 3.3%;
+    }
+  
+    .ulsec4
+    {
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+  
+    .lisec4
+    {
+      flex-direction: column;
+      flex: 0 0 50%;
+      padding: 12px;
+      display: flex;
+      max-width: 50%;
+      height: auto;
+    }
+  
+    .imgsec4
+    {
+      width: 100%;
+      height: auto;
+    }
+  
+    .h3sec4
+    {
+      font-size: 22px;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 16px;
+    }
+  
+    .psec4
+    {
+      text-align: center;
+      font-size: 15px;
+      color: var(--gris);
+      line-height: 27px;
+      margin-bottom: 6%;
+    }
+  
+    /*--------------------Footer--------------------*/
+  
+    footer
+    {
+      text-align: center;
+      padding: 26px 8px;
+    }
+    .imgf
+    {
+      width: 80px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0.7%;
+    }
+  
+    .divf
+    {
+      margin: auto;
+      margin-bottom: 15px;
+      max-width: 1024px;
+      line-height: 22px
+    }
+  
+    .spanf
+    {
+      display: inline-block;
+      margin: 0px 8px;
+    }
+  
+    .globe
+    {
+      left: 2px;
+      top: 49%;
+      width: 18px;
+      display: block;
+    }
+  
+    .down
+    {
+      right: 2px;
+      top: 47%;
+      width: 22px;
+      display: block;
+    }
+  
+    .aspanf
+    {
+      padding: 8px 12px;
+      font-size: 12px;
+      display: inline-block;
+      text-decoration: none;
+      color: var(--gris);
+    }
+  
+    .pf
+    {
+      font-size: 12px;
+      color: var(--gris);
+      margin: 1.4%;
+    }
   }
-
-  nav {
-    display: flex;
-    align-items: center;
-    padding: 0px 36px;
-    height: 70px;
-  }
-
-  .logo {
-    display: inline-block;
-    margin: 5px;
-    margin-right: auto;
-    padding: 0 14px;
-    width: 80px;
-    max-height: 70px;
-    height: auto;
-    box-sizing: content-box;
-  }
-
-  .btn {
-    display: inline-block;
-    padding: 0px 9px;
-    font-size: 13px;
-    color: var(--white);
-    border-radius: 4px;
-    text-decoration: none;
-    letter-spacing: 1px;
-    align-items: center;
-  }
-
-  .ins {
-    background-color: var(--primary-color);
-    margin: 5px;
-  }
-
-  .ide {
-    border: solid 0.8px;
-    border-color: var(--white);
-    margin: 5px;
-  }
-
-  section {
-    display: flex;
-    padding: 5.7%;
-    min-height: 100vh;
-    align-items: center;
-  }
-
-  .fontp {
-    background-image: url(img/Fond_mobile.jpg);
-    background-size: cover;
-    background-position: 50%;
-    line-height: 26px;
-  }
-
-  .first {
-    width: 50%;
-    align-items: center;
-  }
-
-  .img1 {
-    display: block;
-    max-width: 180px;
-    max-height: 20%;
-    margin-bottom: 5%;
-  }
-
-  h1 {
-    margin-bottom: 5%;
-    font-size: 44px;
-    font-weight: bold;
-    text-align: left;
-    line-height: 1;
-  }
-
-  ul {
-    display: flex;
-    margin: 0px -12px;
-  }
-
-  li {
-    display: flex;
-    flex-direction: column;
-    padding: 12px;
-  }
-
-  h3 {
-    margin-bottom: 2.5%;
-    font-size: 24px;
-    font-weight: bold;
-    font-size: 28px;
-  }
-
-  h3 > span {
-    font-size: 16px;
-    color: #c0c0c0;
-    margin-left: 5px;
-  }
-
-  li > p {
-    margin-bottom: 7%;
-    font-size: 16px;
-    color: #c0c0c0;
-  }
-
-  .d {
-    margin: 0px;
-    padding: 16.5px 24px;
-    font-size: 18px;
-    width: 100%;
-    max-width: 360px;
-    height: 60px;
-    text-align: center;
-  }
-
-  section > div > a > span {
-    margin-top: 3px;
-    color: var(--white);
-    font-size: 18px;
-  }
-
-  .autre {
-    color: var(--gris);
-    font-size: 12px;
-  }
-}

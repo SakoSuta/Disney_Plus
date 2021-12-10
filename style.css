@@ -1,4 +1,4 @@
-@media (min-width: 1024px) {
+@media (min-width: 770px) {
   :root {
     --white: #f9f9f9;
     --primary-color: #0063e5;
@@ -12,14 +12,20 @@
       Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   }
 
-  nav {
+  
+
+  /*--------------------Partie Nav--------------------*/
+
+  nav 
+  {
     display: flex;
     align-items: center;
     padding: 0px 36px;
     height: 70px;
   }
 
-  .logo {
+  .logo 
+  {
     display: inline-block;
     margin: 5px;
     margin-right: auto;
@@ -30,7 +36,8 @@
     box-sizing: content-box;
   }
 
-  .btn {
+  .btn 
+  {
     display: inline-block;
     padding: 16.5px 24px;
     height: 50px;
@@ -42,44 +49,53 @@
     align-items: center;
   }
 
-  .ins {
+  .ins 
+  {
     background-color: var(--primary-color);
     margin: 5px;
   }
 
-  .ide {
+  .ide 
+  {
     border: solid 0.8px;
     border-color: var(--white);
     margin: 5px;
   }
 
-  section {
+  /*--------------------Première section--------------------*/
+
+  .section1
+  {
     display: flex;
     padding: 5.7%;
     min-height: 100vh;
     align-items: center;
   }
 
-  .fontp {
+  .fontsec1 
+  {
     background-image: url(img/Fond_web.jpg);
     background-size: cover;
     background-position: 50%;
     line-height: 26px;
   }
 
-  .first {
+  .first 
+  {
     width: 50%;
-    align-items: center;
+    display: block;
   }
 
-  .img1 {
+  .img1sec1 
+  {
     display: block;
     max-width: 180px;
     max-height: 20%;
-    margin-bottom: 5%;
+    margin-bottom: 3vw;
   }
 
-  h1 {
+  .h1sec1 
+  {
     margin-bottom: 5%;
     font-size: 44px;
     font-weight: bold;
@@ -87,37 +103,41 @@
     line-height: 1;
   }
 
-  ul {
+  .ulsec1 
+  {
     display: flex;
     margin: 0px -12px;
   }
 
-  li {
+  .lisec1 
+  {
     display: flex;
     flex-direction: column;
     padding: 12px;
   }
 
-  h3 {
+  .h3sec1 
+  {
     margin-bottom: 2.5%;
     font-size: 24px;
-    font-weight: bold;
-    font-size: 28px;
   }
 
-  h3 > span {
-    font-size: 16px;
-    color: #c0c0c0;
+  .h3spansec1 
+  {
+    font-size: 13px;
+    color: var(--gris);
     margin-left: 5px;
   }
 
-  li > p {
+  .lipsec1 
+  {
     margin-bottom: 7%;
     font-size: 16px;
-    color: #c0c0c0;
+    color: var(--gris);
   }
 
-  .d {
+  .dsec1 
+  {
     margin: 0px;
     padding: 16.5px 24px;
     font-size: 18px;
@@ -125,16 +145,186 @@
     max-width: 360px;
     height: 60px;
     text-align: center;
+    line-height: 18px;
   }
 
-  section > div > a > span {
+  .sectiondivaspansec1 
+  {
     margin-top: 3px;
     color: var(--white);
     font-size: 18px;
   }
 
-  .autre {
+  .autre 
+  {
     color: var(--gris);
     font-size: 12px;
+  }
+
+  /*--------------------Deuxième section--------------------*/
+
+  .section2
+    {
+      display: flex;
+      padding: 5.6vw;
+      min-height: 100vh;
+      align-items: center;
+    }
+
+  .img1sec2 
+  {
+    display: block;
+    width: 50%;
+    height: auto;
+  }
+
+  .divsec2
+  {
+    padding: 0px 30px;
+    max-width: 50%;
+  }
+
+  .h2sec2
+  {
+    margin-bottom: 4%;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .ulsec2
+  {
+    padding-left: 40px;
+    line-height: 30px;
+  }
+
+  .lisec2
+  {
+    margin-bottom: 3.5%;
+    list-style-type: disc;
+    font-size: 20px;
+    color: var(--gris);
+  }
+
+  /*--------------------Troisième section--------------------*/
+
+  .section3
+  {
+    display: block;
+    text-align: center;
+    padding: 5.7%;
+  }
+
+  .dsec3 {
+    margin-bottom: 3.5%;
+  }
+
+  /*--------------------Quatrième section--------------------*/
+
+  .section4
+  {
+    display: block;
+    padding: 5.7%;
+  }
+
+  .h2sec4
+  {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 3.3%;
+  }
+
+  .ulsec4
+  {
+    display: flex;
+  }
+
+  .lisec4
+  {
+    flex-direction: column;
+    padding: 12px;
+  }
+
+  .imgsec4
+  {
+    width: 100%;
+  }
+
+  .h3sec4
+  {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 7.2%;
+  }
+
+  .psec4
+  {
+    text-align: center;
+    font-size: 18px;
+    color: var(--gris);
+    line-height: 28px;
+    margin-bottom: 6%;
+  }
+
+  /*--------------------Footer--------------------*/
+
+  footer
+  {
+    text-align: center;
+    padding: 26px 8px;
+  }
+  .imgf
+  {
+    width: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.7%;
+  }
+
+  .divf
+  {
+    margin: auto;
+    margin-bottom: 15px;
+    max-width: 1024px;
+    line-height: 22px
+  }
+
+  .spanf
+  {
+    display: inline-block;
+    margin: 0px 8px;
+  }
+
+  .globe
+  {
+    left: 2px;
+    top: 49%;
+    width: 18px;
+    display: block;
+  }
+
+  .down
+  {
+    right: 2px;
+    top: 47%;
+    width: 22px;
+    display: block;
+  }
+
+  .aspanf
+  {
+    padding: 8px 12px;
+    font-size: 12px;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--gris);
+  }
+
+  .pf
+  {
+    font-size: 12px;
+    color: var(--gris);
+    margin: 1.4%;
   }
 }
