@@ -22,6 +22,12 @@
     align-items: center;
     padding: 0px 36px;
     height: 70px;
+    position: fixed;
+  }
+  .aze
+  {
+    display: flex;
+    align-items: right;
   }
 
   .logo 
